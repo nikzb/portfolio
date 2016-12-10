@@ -26,6 +26,15 @@ body {
   line-height: 40px;
 }
 
+#connect {
+  padding-bottom: 120px;
+}
+
+#logo-name {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 28px;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -47,11 +56,18 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  
+  background-color: #428bca;
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+
+}
+
+.jumbotron a {
+  color: white;
 }
 
 .jumbotron h1 {
-	font-size: 28px;
+	font-size: 42px;
 	padding-bottom: 10px;
 }
 
@@ -69,7 +85,9 @@ body {
 }
 
 h1 {
-	font-size: 28px;
+	font-size: 42px;
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
 }
 
 h2 {
