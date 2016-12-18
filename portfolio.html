@@ -24,7 +24,7 @@
     <div class="container">
       <div class="header clearfix">
         <nav>
-          <ul class="nav nav-pills pull-right">
+          <ul class="nav nav-pills pull-right collapse navbar-collapse">
             <li role="presentation"><a href="#about">About</a></li>
             <li role="presentation"><a href="#portfolio">Portfolio</a></li>
             <li role="presentation"><a href="#connect">Connect</a></li>
@@ -37,18 +37,16 @@
         <h1>Nik Baltatzis</h1>
         <h2 class="lead">Computer Science Educator for over 10 years</h2>
 		    <p>I've always enjoyed thinking about algorithms. These days I am focused on practical development with JavaScript.</p>
-        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
       </div>
 
   	  <div id="portfolio">
-
   		  <div class="row marketing">
     			<h1>Portfolio</h1>
     			<div class="col-sm-4">
     			  <h2>Combo Lock Helper</h2>
     			  <p>Put in your combination and see exactly how to open your lock.</p>
     			  <a href="http://combolockhelper.com/">
-    			    <img class="img-responsive" src="./portfolio/imgs/ComboLockHelper.PNG" alt="Combo Lock Helper Website Screen Shot">
+    			    <img class="img-responsive" id="combo-lock-helper" src="./portfolio/imgs/ComboLockHelper.PNG" alt="Combo Lock Helper Website Screen Shot">
     			  </a>
     			</div>
 
@@ -56,7 +54,7 @@
     			  <h2>Learn to Count in Binary</h2>
     			  <p>Click a tile to flip it from 0 to 1 or vice versa. Learn the pattern for counting in binary.</p>
     			  <a href="http://combolockhelper.com/countinbinary.html">
-    			    <img class="img-responsive" src="./portfolio/imgs/CountInBinaryWide.PNG" alt="Count In Binary Website Screen Shot">
+    			    <img class="img-responsive" id="count-in-binary" src="./portfolio/imgs/CountInBinaryWide.PNG" alt="Count In Binary Website Screen Shot">
     			  </a>
     			</div>
 		    </div>
@@ -64,18 +62,15 @@
 
   	  <div class="jumbotron" id="connect">
         <h1>Connect</h1>
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="facebook">
           <a href="https://facebook.com/nik.baltatzis"><p>Facebook</p></a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="twitter">
 		      <p><a href="https://twitter.com/nikzb7e">Twitter</a>
-          <a href="https://twitter.com/messages/compose?recipient_id=253303363">@nikzb7e</a></p>
         </div>
-
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="github">
 		      <a href="https://github.com/nikzb"><p>GitHub</p></a>
         </div>
-
       </div>
 
       <footer class="footer">
